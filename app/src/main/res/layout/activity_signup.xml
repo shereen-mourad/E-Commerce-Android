@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signup"
+
+    android:background="@drawable/z">
+
+
+    <EditText
+        android:id="@+id/j"
+        android:layout_width="211dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="396dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginRight="144dp"
+        android:hint="@string/J"
+        android:inputType="text"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/fname"
+        android:layout_width="215dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="144dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginRight="140dp"
+        android:hint="@string/enter_fname"
+        android:inputType="text"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/userEmail"
+        android:layout_width="211dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="268dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginRight="144dp"
+        android:hint="@string/enter_email"
+        android:inputType="text"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/userpassword"
+        android:layout_width="164dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="224dp"
+        android:layout_marginRight="224dp"
+        android:hint="@string/enter_password"
+        android:inputType="textPassword"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/j" />
+
+    <EditText
+        android:id="@+id/g"
+        android:layout_width="216dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginRight="140dp"
+        android:hint="@string/Gender"
+        android:inputType="text"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fname" />
+
+    <EditText
+        android:id="@+id/reuserpassword"
+        android:layout_width="189dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:hint="@string/renter_password"
+        android:inputType="textPassword"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/j" />
+
+    <Button
+        android:id="@+id/reg"
+        android:layout_width="426dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="432dp"
+        android:background="@color/colorAccent"
+        android:text="Register "
+        android:textColorLink="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fname" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="316dp"
+        android:layout_height="108dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:background="@drawable/w"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/colorAccent"
+        android:text="View Calender"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fname" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="205dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginRight="144dp"
+        android:text="Birthdate"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fname" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="431dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="44dp"
+        android:background="@color/colorAccent"
+        android:text="Have an account ?"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reg" />
+
+    <EditText
+        android:id="@+id/color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="456dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginRight="72dp"
+        android:ems="10"
+        android:hint="What's your fav Color ?"
+        android:inputType="text"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

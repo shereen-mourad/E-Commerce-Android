@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="enter_email">Enter your username</string>
+
+    <string name="enter_password">Enter Password</string>
+
+    <string name="enter_fname"> Enter your Name</string>
+
+    <string name="Gender"> Enter your Gender</string>
+
+    <string name="J"> Enter your Job</string>
+
+    <string name="birth"> Enter your Birthdate</string>
+
+
+    <string name="renter_password">ReEnter Password</string>
+
+    <string name="enter_phone">PhoneNumber</string>
+
+    <string name="check_remember">Remember me</string>
+
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/z"
+    tools:context=".cart">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="431dp"
+        android:layout_height="1032dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:background="@color/colorAccent"
+                android:text="View Products"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Product From Categories?"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Perfumes"
+                android:textSize="30sp"
+                android:textStyle="bold|italic" />
+
+            <ListView
+                android:id="@+id/ll"
+                android:layout_width="368dp"
+                android:layout_height="132dp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Body Splashes"
+                android:textSize="30sp"
+                android:textStyle="bold|italic" />
+
+            <ListView
+                android:id="@+id/ll2"
+                android:layout_width="372dp"
+                android:layout_height="114dp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Body Lotions"
+                android:textSize="30sp"
+                android:textStyle="bold|italic" />
+
+            <ListView
+                android:id="@+id/ll3"
+                android:layout_width="372dp"
+                android:layout_height="123dp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Deodrants"
+                android:textSize="30sp"
+                android:textStyle="bold|italic" />
+
+            <ListView
+                android:id="@+id/ll4"
+                android:layout_width="370dp"
+                android:layout_height="166dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

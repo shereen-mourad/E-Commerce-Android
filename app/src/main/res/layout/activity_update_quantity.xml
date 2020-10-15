@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/z"
+    tools:context=".updateQuantity">
+
+    <TextView
+        android:id="@+id/Quantity"
+        android:layout_width="237dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="248dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginRight="96dp"
+        android:text="Your Quantity Is? "
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="1311dp"
+        android:layout_height="157dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mm" />
+
+    <EditText
+        android:id="@+id/quan"
+        android:layout_width="256dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="412dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginRight="76dp"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/con"
+        android:layout_width="443dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="92dp"
+        android:background="@color/colorAccent"
+        android:text="update"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quan" />
+
+    <TextView
+        android:id="@+id/oldquan"
+        android:layout_width="87dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginLeft="172dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Quantity" />
+</androidx.constraintlayout.widget.ConstraintLayout>

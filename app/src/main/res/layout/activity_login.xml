@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+
+    android:background="@drawable/z">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="850dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="632dp"
+        android:drawableBottom="@drawable/l"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="503dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="716dp"
+        android:background="@color/colorAccent"
+        android:text="Want to register ?"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/log"
+        android:layout_width="436dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="608dp"
+        android:background="@color/colorAccent"
+        android:text="Login"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="412dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:hint="@string/enter_email"
+        android:inputType="text"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="411dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="@string/enter_password"
+        android:inputType="textPassword"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="152dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="472dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginRight="140dp"
+        android:text="Remember Me"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="228dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginRight="88dp"
+        android:text="Forget the password ??"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
